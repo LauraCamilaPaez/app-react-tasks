@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+html, body {
+    color: #ffffff;
+    background-color: #1b1b32;
+    font-family: lato, sans-serif;
+    margin-top: 40px;
+}
+
+h1 {
+    color: #1b1b32;
+    font-size: 25px;
+    text-align: center;
+    margin: 20px 0;
+    font-family: "Roboto Condensed";
+}
+
+.tasks-app{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.freecodecamp-logo-container {
+    width: 100%;
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.freecodecamp-logo {
+    width: 400px;
+}
+
+.tasks-principal-list {
+    width: 600px;
+    min-height: 500px;
+    background-color: #d0d0d5;
+    padding: 25px;
+    margin: 10px;
+    justify-content: center;
+    border-radius: 26px;
+}
