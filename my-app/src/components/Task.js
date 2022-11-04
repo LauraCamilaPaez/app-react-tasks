@@ -3,14 +3,14 @@ import '../styles-sheets/task.css';
 import { AiOutlineClose } from 'react-icons/ai';
 
 
-function Task({ text }) {
+function Task({ text, completed }) {
     return (
-        <div className='task-container'>
+        <div className={ completed ? 'task-container completed' : 'task-container' }>
             <div className='task-text'>
                 {text}
             </div>
-            <div className='icon-task'>
-                <AiOutlineClose />
+            <div className='container-icon-tasks'>
+                <AiOutlineClose className='icon-task' />
             </div>
         </div>
     );
