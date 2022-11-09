@@ -1,6 +1,6 @@
 import './App.css';
 import freeCodeCampLogo from './images/freecodecamp-logo.png';
-import Task from './components/Task';
+import TaskList from './components/TaskList';
 
 function App() {
   return (
@@ -11,7 +11,7 @@ function App() {
       </div>
         <div className='tasks-principal-list'>
             <h1>My tasks</h1>
-            <Task text='Learn React'/>
+            <TaskList />
         </div>
     </div>
   );
